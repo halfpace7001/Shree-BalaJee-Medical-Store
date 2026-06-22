@@ -63,7 +63,7 @@ export default function Services() {
               <p className="text-blue-200 text-sm">Call or WhatsApp us — we&apos;ll check stock and get it ready in minutes.</p>
             </div>
             <div className="flex gap-3 flex-shrink-0">
-              <a href="tel:09807160890" className="flex items-center gap-2 bg-white text-blue-700 font-black px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors text-sm shadow-lg">Call Now</a>
+              <a href="tel:8934848480" className="flex items-center gap-2 bg-white text-blue-700 font-black px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors text-sm shadow-lg">Call Now</a>
               <a href="https://wa.me/919807730730" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-black px-6 py-3 rounded-xl transition-colors text-sm shadow-lg">WhatsApp</a>
             </div>
           </div>

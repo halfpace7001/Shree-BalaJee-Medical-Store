@@ -11,7 +11,7 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Shri Bala Ji Medical Store – Gorakhpur",
   description:
-    "Trusted pharmacy in Gorakhpur. Prescription medicines, OTC medicines, Ayurvedic products & home delivery support. Call 098071 60890.",
+    "Trusted pharmacy in Gorakhpur. Prescription medicines, OTC medicines, Ayurvedic products & home delivery support. Call 8934848480.",
   keywords: [
     "medical store gorakhpur",
     "pharmacy gorakhpur",

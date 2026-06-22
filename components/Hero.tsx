@@ -87,7 +87,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             {/* Call */}
             <a
-              href="tel:09807160890"
+              href="tel:8934848480"
               className="group relative flex items-center gap-3 btn-premium text-white font-black text-base px-7 py-4 rounded-2xl shadow-2xl shadow-blue-900/60 overflow-hidden"
             >
               <span className="absolute inset-0 animate-shimmer opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -96,7 +96,7 @@ export default function Hero() {
               </div>
               <div className="text-left relative z-10">
                 <p className="text-white/50 text-[11px] font-medium">Call the store</p>
-                <p className="font-black text-base">098071 60890</p>
+                <p className="font-black text-base">8934848480</p>
               </div>
             </a>
 

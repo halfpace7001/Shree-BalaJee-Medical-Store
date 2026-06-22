@@ -87,7 +87,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="tel:09807160890"
+            href="tel:8934848480"
             className="relative flex items-center gap-2 btn-premium text-white text-sm font-black px-5 py-2.5 rounded-full shadow-lg hover:shadow-blue-500/30 transition-all"
           >
             <Phone className="w-4 h-4" />
@@ -132,7 +132,7 @@ export default function Navbar() {
           </div>
           <div className="flex gap-3">
             <a
-              href="tel:09807160890"
+              href="tel:8934848480"
               className="flex-1 flex items-center justify-center gap-2 btn-premium text-white font-black py-3 rounded-xl"
             >
               <Phone className="w-4 h-4" />

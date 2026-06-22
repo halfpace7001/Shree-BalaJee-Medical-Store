@@ -34,11 +34,10 @@ export default function Contact() {
                 <Phone className="w-8 h-8" />
               </div>
               <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">Call the Store</p>
-              <p className="text-3xl font-black mb-1">098071</p>
-              <p className="text-3xl font-black mb-4">60890</p>
+              <p className="text-3xl font-black mb-4">8934848480</p>
               <p className="text-blue-200 text-sm mb-6">Speak directly to our pharmacist during store hours.</p>
               <a
-                href="tel:09807160890"
+                href="tel:8934848480"
                 className="inline-flex items-center gap-2 bg-white text-blue-700 font-black text-sm px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors"
               >
                 <Phone className="w-4 h-4" />
@@ -115,7 +114,7 @@ export default function Contact() {
             {
               icon: Phone,
               label: "Store Phone",
-              value: "098071 60890",
+              value: "8934848480",
               sub: "Call during store hours",
               color: "bg-indigo-50 text-indigo-600",
             },

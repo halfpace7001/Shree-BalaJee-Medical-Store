@@ -81,7 +81,7 @@ export default function MapSection() {
                 </div>
                 <p className="font-black text-gray-900 dark:text-white">Call Us</p>
               </div>
-              <a href="tel:09807160890" className="text-2xl font-black text-blue-600 hover:text-blue-700 block mb-1">098071 60890</a>
+              <a href="tel:8934848480" className="text-2xl font-black text-blue-600 hover:text-blue-700 block mb-1">8934848480</a>
               <p className="text-gray-400 text-xs">Available during store hours</p>
             </div>
 

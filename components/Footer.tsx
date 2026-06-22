@@ -32,11 +32,11 @@ export default function Footer() {
             </div>
             <div className="flex gap-3">
               <a
-                href="tel:09807160890"
+                href="tel:8934848480"
                 className="flex items-center gap-2 btn-premium text-white font-bold px-6 py-3 rounded-xl text-sm shadow-lg"
               >
                 <Phone className="w-4 h-4" />
-                098071 60890
+                8934848480
               </a>
               <a
                 href={WHATSAPP}
@@ -108,9 +108,9 @@ export default function Footer() {
                 </p>
               </div>
 
-              <a href="tel:09807160890" className="flex items-center gap-3 group">
+              <a href="tel:8934848480" className="flex items-center gap-3 group">
                 <Phone className="w-4 h-4 text-blue-400 flex-shrink-0" />
-                <span className="text-white/40 group-hover:text-white text-sm transition-colors">098071 60890</span>
+                <span className="text-white/40 group-hover:text-white text-sm transition-colors">8934848480</span>
               </a>
 
               <a href={WHATSAPP} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">

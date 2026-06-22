@@ -13,7 +13,7 @@ export default function StickyBar() {
         <div className="grid grid-cols-3 h-16">
           {/* Call */}
           <a
-            href="tel:09807160890"
+            href="tel:8934848480"
             className="group flex flex-col items-center justify-center gap-0.5 hover:bg-blue-50 transition-colors"
           >
             <div className="w-8 h-8 rounded-xl bg-blue-100 group-hover:bg-blue-600 flex items-center justify-center transition-colors">
