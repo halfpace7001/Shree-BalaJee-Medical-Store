@@ -1,7 +1,7 @@
 import { Phone, MessageCircle, MapPin, Cross, ArrowUpRight } from "lucide-react";
 
 const WHATSAPP = "https://wa.me/918934848480";
-const MAPS = "https://maps.google.com/?q=Police+Chauki,+Jail+Bypass+Rd,+Shahpur,+Gorakhpur,+UP+273014";
+const MAPS = "https://www.google.com/maps?q=Shri+Bala+Ji+Medical+Store,+Jail+Bypass+Rd,+Gorakhpur";
 
 const quickLinks = [
   { href: "#about", label: "About Us" },

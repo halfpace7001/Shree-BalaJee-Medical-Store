@@ -3,7 +3,7 @@
 import { Phone, MessageCircle, MapPin } from "lucide-react";
 
 const WHATSAPP = "https://wa.me/918934848480?text=" + encodeURIComponent("Hello! I want to order medicines.");
-const MAPS = "https://maps.google.com/?q=Police+Chauki,+Jail+Bypass+Rd,+Shahpur,+Gorakhpur,+UP+273014";
+const MAPS = "https://www.google.com/maps?q=Shri+Bala+Ji+Medical+Store,+Jail+Bypass+Rd,+Gorakhpur";
 
 export default function StickyBar() {
   return (

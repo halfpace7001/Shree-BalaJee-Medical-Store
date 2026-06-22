@@ -1,7 +1,7 @@
 import { Phone, MessageCircle, MapPin, Mail, User } from "lucide-react";
 
 const WHATSAPP = "https://wa.me/918934848480?text=" + encodeURIComponent("Hello! I would like to order medicines from Shri Bala Ji Medical Store.");
-const MAPS = "https://maps.google.com/?q=Police+Chauki,+Jail+Bypass+Rd,+Shahpur,+Gorakhpur,+UP+273014";
+const MAPS = "https://www.google.com/maps?q=Shri+Bala+Ji+Medical+Store,+Jail+Bypass+Rd,+Gorakhpur";
 
 export default function Contact() {
   return (

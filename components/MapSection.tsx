@@ -1,6 +1,6 @@
 import { MapPin, Navigation, Phone, Clock, Building2 } from "lucide-react";
 
-const MAPS = "https://maps.google.com/?q=Police+Chauki,+Jail+Bypass+Rd,+Shahpur,+Gorakhpur,+UP+273014";
+const MAPS = "https://www.google.com/maps?q=Shri+Bala+Ji+Medical+Store,+Jail+Bypass+Rd,+Gorakhpur";
 const hours = [
   { day: "Monday – Friday", time: "8:00 AM – 10:00 PM" },
   { day: "Saturday", time: "8:00 AM – 10:00 PM" },
