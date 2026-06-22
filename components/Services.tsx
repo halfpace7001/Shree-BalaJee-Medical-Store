@@ -4,7 +4,7 @@ const services = [
   { icon: Pill, title: "Prescription Medicines", desc: "All allopathic Rx medicines. Share your prescription and we'll prepare everything.", gradient: "from-blue-600 to-blue-400", glow: "hover:shadow-blue-100 dark:hover:shadow-blue-900/30", tag: "Most popular" },
   { icon: ShoppingBag, title: "OTC Medicines", desc: "Paracetamol, antacids, vitamins, cold & flu — available instantly, no prescription.", gradient: "from-indigo-600 to-violet-400", glow: "hover:shadow-indigo-100 dark:hover:shadow-indigo-900/30", tag: null },
   { icon: Truck, title: "Home Delivery", desc: "Can't visit? Send your prescription on WhatsApp — we arrange delivery.", gradient: "from-emerald-600 to-green-400", glow: "hover:shadow-emerald-100 dark:hover:shadow-emerald-900/30", tag: "Available" },
-  { icon: MessageCircle, title: "WhatsApp Orders", desc: "Photo your prescription and send to 8934848480. Fast and easy.", gradient: "from-green-500 to-teal-400", glow: "hover:shadow-green-100 dark:hover:shadow-green-900/30", tag: null },
+  { icon: MessageCircle, title: "WhatsApp Orders", desc: "Photo your prescription and send to 9807730730. Fast and easy.", gradient: "from-green-500 to-teal-400", glow: "hover:shadow-green-100 dark:hover:shadow-green-900/30", tag: null },
   { icon: Leaf, title: "Ayurvedic & Herbal", desc: "Full Daivish range — liver care, diabetes, joint health, immunity boosters.", gradient: "from-teal-600 to-cyan-400", glow: "hover:shadow-teal-100 dark:hover:shadow-teal-900/30", tag: null },
   { icon: Stethoscope, title: "Free Health Advice", desc: "Registered pharmacist provides free guidance on medicines and general wellness.", gradient: "from-cyan-600 to-sky-400", glow: "hover:shadow-cyan-100 dark:hover:shadow-cyan-900/30", tag: "Free" },
   { icon: Baby, title: "Baby & Mother Care", desc: "Baby food, diapers, vitamins — everything for your family under one roof.", gradient: "from-pink-500 to-rose-400", glow: "hover:shadow-pink-100 dark:hover:shadow-pink-900/30", tag: null },
@@ -64,7 +64,7 @@ export default function Services() {
             </div>
             <div className="flex gap-3 flex-shrink-0">
               <a href="tel:09807160890" className="flex items-center gap-2 bg-white text-blue-700 font-black px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors text-sm shadow-lg">Call Now</a>
-              <a href="https://wa.me/918934848480" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-black px-6 py-3 rounded-xl transition-colors text-sm shadow-lg">WhatsApp</a>
+              <a href="https://wa.me/919807730730" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-black px-6 py-3 rounded-xl transition-colors text-sm shadow-lg">WhatsApp</a>
             </div>
           </div>
         </div>

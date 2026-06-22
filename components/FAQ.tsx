@@ -4,8 +4,8 @@ import { useState } from "react";
 import { ChevronDown, MessageCircle } from "lucide-react";
 
 const faqs = [
-  { q: "Do you deliver medicines at home?", a: "Yes! Send your prescription on WhatsApp to 8934848480. Our team confirms availability and arranges home delivery. Call us for delivery area details." },
-  { q: "Can I order on WhatsApp?", a: "Absolutely. Just photo your prescription and send it to 8934848480. We'll confirm stock, pricing, and delivery options within minutes." },
+  { q: "Do you deliver medicines at home?", a: "Yes! Send your prescription on WhatsApp to 9807730730. Our team confirms availability and arranges home delivery. Call us for delivery area details." },
+  { q: "Can I order on WhatsApp?", a: "Absolutely. Just photo your prescription and send it to 9807730730. We'll confirm stock, pricing, and delivery options within minutes." },
   { q: "Do you stock Ayurvedic medicines?", a: "Yes — we carry the full Daivish Ayurvedic range: Dai-Liv, diabetes support, Dai-Kneflex, GasNo, immunity boosters, and many more herbal products." },
   { q: "Is a prescription required for all medicines?", a: "Prescription medicines legally need a valid doctor's Rx. OTC medicines like paracetamol, antacids, and vitamins can be bought without one." },
   { q: "What are your working hours?", a: "Monday to Saturday: 8:00 AM – 10:00 PM. Sunday: 9:00 AM – 8:00 PM. We are open all 7 days a week." },
@@ -72,7 +72,7 @@ export default function FAQ() {
         <div className="mt-12 text-center">
           <p className="text-gray-400 dark:text-gray-500 text-sm mb-4">Still have a question?</p>
           <a
-            href="https://wa.me/918934848480?text=Hello%2C+I+have+a+question."
+            href="https://wa.me/919807730730?text=Hello%2C+I+have+a+question."
             target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-black px-7 py-3.5 rounded-xl transition-colors shadow-lg shadow-green-200 dark:shadow-green-900/30"
           >

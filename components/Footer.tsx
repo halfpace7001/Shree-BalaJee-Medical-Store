@@ -1,6 +1,6 @@
 import { Phone, MessageCircle, MapPin, Cross, ArrowUpRight } from "lucide-react";
 
-const WHATSAPP = "https://wa.me/918934848480";
+const WHATSAPP = "https://wa.me/919807730730";
 const MAPS = "https://www.google.com/maps?q=Shri+Bala+Ji+Medical+Store,+Jail+Bypass+Rd,+Gorakhpur";
 
 const quickLinks = [
@@ -115,7 +115,7 @@ export default function Footer() {
 
               <a href={WHATSAPP} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">
                 <MessageCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
-                <span className="text-white/40 group-hover:text-white text-sm transition-colors">8934848480 (WhatsApp)</span>
+                <span className="text-white/40 group-hover:text-white text-sm transition-colors">9807730730 (WhatsApp)</span>
               </a>
 
               <a

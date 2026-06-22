@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react";
 import {
-  Upload, FileImage, CheckCircle2, Send, User, Phone,
+  Upload, FileImage, CheckCircle2, Send, User, Phone, MapPin,
   MessageSquare, Zap, Shield, Clock, Paperclip, ArrowRight, Download,
   Plus, Trash2, ClipboardList,
 } from "lucide-react";
@@ -25,7 +25,7 @@ export default function PrescriptionUpload() {
   const [isImage, setIsImage] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [form, setForm] = useState({ name: "", phone: "", message: "" });
+  const [form, setForm] = useState({ name: "", phone: "", address: "", message: "" });
   // Numbered medicine list
   const [medicines, setMedicines] = useState<string[]>([""]);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -74,6 +74,7 @@ export default function PrescriptionUpload() {
       `Name: ${form.name}\n` +
       `Phone: ${form.phone}\n\n` +
       `Medicines Required:\n${medicineList}\n\n` +
+      `Delivery Address: ${form.address || "Not provided"}\n` +
       `Note: ${form.message || "N/A"}\n\n` +
       `Please confirm availability.`
     );
@@ -81,7 +82,7 @@ export default function PrescriptionUpload() {
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
-      window.open(`https://wa.me/918934848480?text=${msg}`, "_blank");
+      window.open(`https://wa.me/919807730730?text=${msg}`, "_blank");
     }, 1000);
   }
 
@@ -177,7 +178,7 @@ export default function PrescriptionUpload() {
           {/* Open WhatsApp again + reset */}
           <div className="flex gap-3">
             <a
-              href={`https://wa.me/918934848480`}
+              href={`https://wa.me/919807730730`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-black py-4 rounded-2xl transition-colors text-sm"
@@ -192,7 +193,7 @@ export default function PrescriptionUpload() {
                 setFileName("");
                 setFilePreview("");
                 setIsImage(false);
-                setForm({ name: "", phone: "", message: "" });
+                setForm({ name: "", phone: "", address: "", message: "" });
                 setMedicines([""]);
               }}
               className="flex items-center gap-2 border border-white/15 hover:bg-white/10 text-white/60 hover:text-white font-semibold py-4 px-5 rounded-2xl transition-colors text-sm"
@@ -319,6 +320,24 @@ export default function PrescriptionUpload() {
                     className="w-full pl-11 pr-4 py-3.5 bg-gray-50 dark:bg-[#0a1228] border border-gray-200 dark:border-[#1e2d4f] rounded-xl text-sm text-gray-900 dark:text-white placeholder-gray-300 dark:placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   />
                 </div>
+              </div>
+
+              {/* Delivery Address */}
+              <div>
+                <label className="block text-xs font-black text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">
+                  Delivery Address
+                </label>
+                <div className="relative">
+                  <MapPin className="absolute left-4 top-3.5 w-4 h-4 text-gray-300" />
+                  <textarea
+                    name="address" value={form.address} onChange={handleChange} rows={2}
+                    placeholder="Ghar ka pura address likhein — mohalla, gali, landmark…"
+                    className="w-full pl-11 pr-4 py-3.5 bg-gray-50 dark:bg-[#0a1228] border border-gray-200 dark:border-[#1e2d4f] rounded-xl text-sm text-gray-900 dark:text-white placeholder-gray-300 dark:placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-all"
+                  />
+                </div>
+                <p className="text-[11px] text-gray-400 dark:text-gray-500 mt-1.5">
+                  Home delivery ke liye zaroor bharen — pickup ke liye khali chhor sakte hain
+                </p>
               </div>
 
               {/* ── Prescription Medicine Names (Numbered) ── */}

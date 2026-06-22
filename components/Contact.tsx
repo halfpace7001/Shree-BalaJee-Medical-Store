@@ -1,6 +1,6 @@
 import { Phone, MessageCircle, MapPin, Mail, User } from "lucide-react";
 
-const WHATSAPP = "https://wa.me/918934848480?text=" + encodeURIComponent("Hello! I would like to order medicines from Shri Bala Ji Medical Store.");
+const WHATSAPP = "https://wa.me/919807730730?text=" + encodeURIComponent("Hello! I would like to order medicines from Shri Bala Ji Medical Store.");
 const MAPS = "https://www.google.com/maps?q=Shri+Bala+Ji+Medical+Store,+Jail+Bypass+Rd,+Gorakhpur";
 
 export default function Contact() {
@@ -108,7 +108,7 @@ export default function Contact() {
             {
               icon: Mail,
               label: "WhatsApp for Orders",
-              value: "8934848480",
+              value: "9807730730",
               sub: "Send prescription photos anytime",
               color: "bg-green-50 text-green-600",
             },

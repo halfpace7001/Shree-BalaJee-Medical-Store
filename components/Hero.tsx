@@ -2,7 +2,7 @@
 
 import { Phone, MessageCircle, MapPin, ShieldCheck, Star, Clock, Award, ChevronDown } from "lucide-react";
 
-const WHATSAPP = "https://wa.me/918934848480?text=" + encodeURIComponent("Hello! I would like to order medicines from Shri Bala Ji Medical Store.");
+const WHATSAPP = "https://wa.me/919807730730?text=" + encodeURIComponent("Hello! I would like to order medicines from Shri Bala Ji Medical Store.");
 const MAPS = "https://maps.google.com/?q=Shri+Bala+Ji+Medical+Store,+Jail+Bypass+Rd,+Gorakhpur";
 
 const HERO_BG = "linear-gradient(135deg, #0a0f1e 0%, #0d2456 35%, #091b46 65%, #070e24 100%)";
@@ -112,7 +112,7 @@ export default function Hero() {
               </div>
               <div className="text-left">
                 <p className="text-white/50 text-[11px] font-medium">Order on WhatsApp</p>
-                <p className="font-black text-base">8934848480</p>
+                <p className="font-black text-base">9807730730</p>
               </div>
             </a>
 

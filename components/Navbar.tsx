@@ -75,7 +75,7 @@ export default function Navbar() {
           <ThemeToggle scrolled={scrolled} />
 
           <a
-            href="https://wa.me/918934848480"
+            href="https://wa.me/919807730730"
             target="_blank"
             rel="noopener noreferrer"
             className={`flex items-center gap-2 text-sm font-bold transition-colors ${
@@ -139,7 +139,7 @@ export default function Navbar() {
               <span className="relative z-10">Call Now</span>
             </a>
             <a
-              href="https://wa.me/918934848480"
+              href="https://wa.me/919807730730"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-black py-3 rounded-xl transition-colors"
